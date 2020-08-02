@@ -1,1 +1,2 @@
-### It contains some basic programs of C language related to Structured Programming Approach
+## It contains some basic to advanced algorithms of C++ language
+
