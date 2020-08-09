@@ -1,13 +1,13 @@
 class Solution {
 public:
     int divide(int dividend, int divisor) {
-        int ans = 0, flag = 0;
+        int ans = 0;
         if(divisor == 0)
-            return 2147483647;
+            return 2147483647;                              //int-max
         if(divisor == -1 && dividend == -2147483648)
-            return 2147483647;
+            return 2147483647;                              //int-max
         if(divisor == 1 && dividend == -2147483648)
-            return -2147483648;
+            return -2147483648;                             //int-min
         
            long absdvend = abs((long) dividend);
            long absdvsr = abs((long) divisor);
